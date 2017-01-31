@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WholesaleCustomer()
+comment1.params=mur\ c
+comment1.target=WholesaleCustomer(double,\ java.lang.String)
+comment2.params=
+comment2.target=double\ getMUR()
+comment3.params=mur
+comment3.target=void\ setMUR(double)
+comment4.params=
+comment4.target=java.lang.String\ getC()
+comment5.params=c
+comment5.target=void\ setC(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ info()
+numComments=7

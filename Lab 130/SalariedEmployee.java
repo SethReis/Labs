@@ -5,29 +5,43 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class SalariedEmployee
+public class SalariedEmployee extends Employee
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class SalariedEmployee
-     */
-    public SalariedEmployee()
-    {
-        // initialise instance variables
-        x = 0;
+    private double annualSalary;
+    
+    private int payPeriod;
+    
+    public SalariedEmployee(){
+        annualSalary = 125000;
+        payPeriod = 245;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public SalariedEmployee(double as, int pp){
+        annualSalary = as;
+        payPeriod = pp;
+    }
+    
+    public double getAS(){
+        return annualSalary;
+    }
+    
+    public void setAS(double as){
+        annualSalary = as;
+    }
+    
+    public int getPP(){
+        return payPeriod;
+    }
+    
+    public void setPP(int pp){
+        payPeriod = pp;
+    }
+    
+    public double calcPay(){
+        return annualSalary;
+    }
+    
+    public String info(){
+        return "This class demonstrates an example of a worker that gets paid annualy based on the number of days they've worked";
     }
 }

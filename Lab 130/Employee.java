@@ -9,22 +9,30 @@ public class Employee extends Person
 {
     private int startDate;
     
+    private int currentDate;
+    
     private String positionTitle;
     
     public Employee()
     {
-       startDate = 0;
+       startDate = 1995;
+       currentDate = 2017;
        positionTitle = "";
     }
 
-    public Employee(int sd, String pt)
+    public Employee(int sd, int cd, String pt)
     {
         startDate = sd;
+        currentDate = cd;
         positionTitle = pt;
     }
     
     public int getSD(){
         return startDate;
+    }
+    
+    public int getCD(){
+        return currentDate;
     }
     
     public String getPT(){
@@ -35,15 +43,19 @@ public class Employee extends Person
         positionTitle = pt;
     }
     
-    public void setST(int sd){
-        age = sd;
+    public void setSD(int sd){
+        startDate = sd;
+    }
+    
+    public void setCD(int cd){
+        currentDate = cd;
     }
     
     public int yearsServed(){
-        return currentDate
+        return currentDate - startDate;
     }
     
     public String info(){
-        return 
+        return "Employee extends Person and desribes an employee that works in the company";
     }
 }

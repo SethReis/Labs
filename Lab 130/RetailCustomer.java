@@ -5,29 +5,29 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class RetailCustomer
+public class RetailCustomer extends Customer
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class RetailCustomer
-     */
+    private double markupRate;
+    
     public RetailCustomer()
     {
-        // initialise instance variables
-        x = 0;
+        markupRate = 0.0;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public RetailCustomer(double mur)
     {
-        // put your code here
-        return x + y;
+        markupRate = mur;
+    }
+    
+    public double getMUR(){
+        return markupRate;
+    }
+    
+    public void setMUR(double mur){
+        markupRate = mur;
+    }
+    
+    public String info(){
+        return "This class is an example of a customer who buys products based or retailer";
     }
 }

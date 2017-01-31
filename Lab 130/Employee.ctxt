@@ -1,8 +1,22 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Employee()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Employee\r\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=2
+comment1.params=sd\ cd\ pt
+comment1.target=Employee(int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getSD()
+comment3.params=
+comment3.target=int\ getCD()
+comment4.params=
+comment4.target=java.lang.String\ getPT()
+comment5.params=pt
+comment5.target=void\ setPT(java.lang.String)
+comment6.params=sd
+comment6.target=void\ setSD(int)
+comment7.params=cd
+comment7.target=void\ setCD(int)
+comment8.params=
+comment8.target=int\ yearsServed()
+comment9.params=
+comment9.target=java.lang.String\ info()
+numComments=10

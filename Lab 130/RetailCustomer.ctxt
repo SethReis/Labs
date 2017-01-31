@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RetailCustomer()
+comment1.params=mur
+comment1.target=RetailCustomer(double)
+comment2.params=
+comment2.target=double\ getMUR()
+comment3.params=mur
+comment3.target=void\ setMUR(double)
+comment4.params=
+comment4.target=java.lang.String\ info()
+numComments=5

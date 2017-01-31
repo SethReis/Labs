@@ -5,29 +5,43 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class HourlyEmployee
+public class HourlyEmployee extends Employee
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class HourlyEmployee
-     */
-    public HourlyEmployee()
-    {
-        // initialise instance variables
-        x = 0;
+    private double hourlyRate;
+    
+    private int dailyHours;
+    
+    public HourlyEmployee(){
+        hourlyRate = 10.5;
+        dailyHours = 8;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public HourlyEmployee(double hr, int dh){
+        hourlyRate = hr;
+        dailyHours = dh;
+    }
+    
+    public double getHR(){
+        return hourlyRate;
+    }
+    
+    public void setHR(double hr){
+        hourlyRate = hr;
+    }
+    
+    public int getDH(){
+        return dailyHours;
+    }
+    
+    public void setDH(int dh){
+        dailyHours = dh;
+    }
+    
+    public double calcPay(){
+        return hourlyRate * dailyHours;
+    }
+    
+    public String info(){
+        return "This class demonstrates an example of a worker that gets paid by the hour";
     }
 }

@@ -5,29 +5,29 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Customer
+public class Customer extends Person
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Customer
-     */
+    private String region;
+    
     public Customer()
     {
-        // initialise instance variables
-        x = 0;
+        region = "America";
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public Customer(String r)
     {
-        // put your code here
-        return x + y;
+        region = r;
+    }
+    
+    public String getR(){
+        return region;
+    }
+    
+    public void setR(String r){
+        region = r;
+    }
+    
+    public String info(){
+        return "Customer extends Person and sets the basis for 2 types of customers based on region";
     }
 }
