@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=sort()
+comment1.params=a
+comment1.target=int[]\ insert(int[])
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment2.params=a
+comment2.target=java.util.ArrayList\ insert(java.util.ArrayList)
+comment3.params=a
+comment3.target=int[]\ select(int[])
+comment4.params=a
+comment4.target=java.util.ArrayList\ select(java.util.ArrayList)
+numComments=5
