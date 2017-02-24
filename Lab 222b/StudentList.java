@@ -154,6 +154,7 @@ public class StudentList
         System.out.println("2. Sort by Selection");
         System.out.println("3. Sort by CompareTo");
         System.out.println("4. Sort by Merge");
+        System.out.println("5. Sort by Binary");
         String input = scr.nextLine();
         if(input.equals("1"))
         {
@@ -170,6 +171,10 @@ public class StudentList
         else if(input.equals("4"))
         {
             sortMerge(students);
+        }
+        else if(input.equals("5"))
+        {
+            sortBinary();
         }
     }
     
@@ -288,7 +293,20 @@ public class StudentList
                newArray.add(array2.get(d));
             }
         }
- 
         return newArray;
+    }
+    
+    public void sortBinary()
+    {
+        int low;
+        int high;
+        while(high >= low)
+        {
+            int mid = (low + high) / 2;
+            if(students.get(mid).getGPA() == students.getGPA())
+            {
+                return;
+            }
+        }
     }
 }

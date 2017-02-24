@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ run()
+comment1.params=nums\ goal
+comment1.target=int\ sequential(int[],\ int)
+comment2.params=nums\ goal
+comment2.target=int\ binary(int[],\ int)
+numComments=3

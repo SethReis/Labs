@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Student()
+comment1.params=
+comment1.target=int\ getID()
+comment10.params=last
+comment10.target=void\ setLName(java.lang.String)
+comment11.params=s
+comment11.target=int\ compareTo(Student)
+comment2.params=
+comment2.target=double\ getGPA()
+comment3.params=
+comment3.target=java.lang.String\ getFName()
+comment4.params=
+comment4.target=java.lang.String\ getMName()
+comment5.params=
+comment5.target=java.lang.String\ getLName()
+comment6.params=id
+comment6.target=void\ setID(int)
+comment7.params=gpa
+comment7.target=void\ setGPA(double)
+comment8.params=first
+comment8.target=void\ setFName(java.lang.String)
+comment9.params=middle
+comment9.target=void\ setMName(java.lang.String)
+numComments=12
